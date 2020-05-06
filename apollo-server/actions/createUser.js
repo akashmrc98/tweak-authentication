@@ -1,6 +1,6 @@
-const TempUser = require('../../../model/tempUser');
-const encrypt = require('../../../utils/encrypt').encryptString;
-const { sendMail } = require('../../../utils/email');
+const TempUser = require('../../model/temp-user');
+const encrypt = require('../../utils/encrypt').encryptString;
+const { sendMail } = require('../../utils/email');
 
 module.exports = async (
   firstName,

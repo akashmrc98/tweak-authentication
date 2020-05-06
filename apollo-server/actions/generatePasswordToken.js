@@ -1,5 +1,5 @@
-const User = require('../../../model/users');
-const { sendMail } = require('../../../utils/email');
+const User = require('../../model/user');
+const { sendMail } = require('../../utils/email');
 
 module.exports = async (email) => {
   try {

@@ -1,8 +1,8 @@
-const CREATE_USER = require('./actions/CreateUser');
-const AUTHENTICATE = require('./actions/authenticateUser');
-const ACTIVATE_USER = require('./actions/activateUser');
-const PASSWORD_TOKEN = require('./actions/generatePasswordToken');
-const CHANGE_USER_PASSWORD = require('./actions/changeUserPassword');
+const CREATE_USER = require('../actions/createUser');
+const AUTHENTICATE = require('../actions/authenticateUser');
+const ACTIVATE_USER = require('../actions/activateUser');
+const PASSWORD_TOKEN = require('../actions/generatePasswordToken');
+const CHANGE_USER_PASSWORD = require('../actions/changeUserPassword');
 
 module.exports = {
   createUser: async (

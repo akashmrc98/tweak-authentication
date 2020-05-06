@@ -1,4 +1,4 @@
-const TempUser = require('../../../model/tempUser');
+const TempUser = require('../../model/temp-user');
 
 module.exports = async (token) => {
   try {

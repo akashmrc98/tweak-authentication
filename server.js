@@ -1,7 +1,7 @@
 const http = require('http');
 const express = require('express');
 const app = express();
-const server = require('./apolloServer/apollo-server');
+const server = require('./apollo-server/apollo-server');
 const database = require('./utils/db');
 const cors = require('cors');
 

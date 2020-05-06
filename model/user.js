@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const LoginSession = require('./loginSession');
+const LoginSession = require('./login-session');
 
 const encrypt = require('../utils/encrypt').encryptString;
 const generateToken = require('../utils/encrypt').generateSessionToken;
